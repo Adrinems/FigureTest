@@ -11,6 +11,6 @@ before_script:
 script:
   - lettuce AcceptanceTest
   - cd UnitTest
-  - python TestFiguras2.py -v
-  - coverage run --branch TestFiguras.py
+  - python TestCase.py -v
+  - coverage run --branch TestCase.py
   - coverage report -m
